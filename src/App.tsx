@@ -2,7 +2,6 @@ import React from "react";
 import "./App.css";
 import Cats from "./components/cats";
 
-
 function App() {
   return (
     <div className="app">
@@ -26,7 +25,7 @@ function App() {
       </main>
       <main className="main-content">
         <div className="buttons">
-          <div className="buttons">
+          <div className="two-buttons">
             <div>
               <button className="adopt-btn">Adopt</button>
             </div>
@@ -58,8 +57,41 @@ function App() {
             area={"Female Ameerpet, Hyderabad (75 Miles)"}
           />
         </div>
-        <div>2</div>
-        <div>table</div>
+        <div>Matched Profiles</div>
+        <div className="table">
+          <table style={{ width: "100%" }}>
+            <tr>
+              <th>Full Name</th>
+              <th>Pet Name</th>
+              <th>Location</th>
+              <th>Status</th>
+            </tr>
+            <tr>
+              <td>Ranjith Soma</td>
+              <td>Simba</td>
+              <td>Yellareddy road Ameerpet, Hyderabad</td>
+              <td>80%</td>
+            </tr>
+            <tr>
+              <td>Ranjith Soma</td>
+              <td>Simba</td>
+              <td>Yellareddy road Ameerpet, Hyderabad</td>
+              <td>80%</td>
+            </tr>
+            <tr>
+              <td>Ranjith Soma</td>
+              <td>Simba</td>
+              <td>Yellareddy road Ameerpet, Hyderabad</td>
+              <td>80%</td>
+            </tr>
+            <tr>
+              <td>Ranjith Soma</td>
+              <td>Simba</td>
+              <td>Yellareddy road Ameerpet, Hyderabad</td>
+              <td>80%</td>
+            </tr>
+          </table>
+        </div>
       </main>
     </div>
   );

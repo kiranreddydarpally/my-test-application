@@ -15,7 +15,7 @@ const Cats = ({
     <div className="buttons">
       <div>
         <div className="card-footer">
-          <img src={src} style={{ width: "500px" }} alt="cat 1" />
+          <img src={src} style={{ width: "400px" }} alt={title} />
           <div
             style={{
               padding: "12px",
