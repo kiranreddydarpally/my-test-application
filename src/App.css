@@ -7,12 +7,12 @@
 }
 
 .header {
-  height: 100px;
+  height: 70px;
   border-width: 1px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0px 96px;
+  padding: 0px 106px;
 }
 
 .menu-items {
@@ -42,7 +42,11 @@
 }
 
 .path {
-  padding: 0px 96px;
+  display: flex;
+  align-items: center;
+  background: rgba(246, 249, 254, 1);
+  height: 66px;
+  padding: 0px 106px;
 }
 
 .my-posts {
@@ -53,7 +57,7 @@
 }
 
 .main-content {
-  padding: 48px 96px;
+  padding: 48px 106px;
 }
 
 .buttons {
@@ -113,7 +117,7 @@
 table {
   text-align: center;
   padding: 12px;
-  border: 1px solid black;
+  border: 1px solid rgba(0, 0, 0, 0.25);
   border-collapse: collapse;
 }
 
