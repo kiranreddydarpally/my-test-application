@@ -97,10 +97,7 @@
     background: rgba(245, 121, 12, 1);
   }
   
-  .card-footer {
-    border-radius: 15px;
-    border: 1px solid rgba(0, 0, 0, 0.25);
-  }
+
   
   .cats {
     display: flex;

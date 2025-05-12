@@ -1,0 +1,11 @@
+.nav {
+  display: flex;
+  align-items: center;
+  padding: 12px 106px;
+  background: rgba(31, 191, 194, 1);
+  color: white;
+}
+
+.nav p {
+  font-size: 36px;
+}

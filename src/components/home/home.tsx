@@ -2,6 +2,7 @@ import React from "react";
 import Cats from "../helpers/cats";
 import "./home.css";
 import { useNavigate } from "react-router-dom";
+import Path from "../helpers/path";
 
 const Home = () => {
   const navigate = useNavigate();
@@ -22,9 +23,7 @@ const Home = () => {
           <button className="login-btn">LOG IN</button>
         </div>
       </header>
-      <main className="path">
-        Adoption / Home / <span className="my-posts">My posts </span>
-      </main>
+      <Path path="Adoption/Home" currentPath="/My posts" />
       <main className="main-content">
         <div className="buttons">
           <div className="two-buttons">

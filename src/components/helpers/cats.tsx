@@ -1,5 +1,4 @@
-import React from "react";
-
+import "./cats.css";
 const Cats = ({
   src,
   title,
@@ -13,35 +12,33 @@ const Cats = ({
 }) => {
   return (
     <div className="buttons">
-      <div>
-        <div className="card-footer">
-          <img src={src} style={{ width: "400px" }} alt={title} />
-          <div
+      <div className="card">
+        <img src={src} style={{ width: "400px" }} alt={title} />
+        <div
+          style={{
+            padding: "12px",
+            gap: "12px",
+            display: "flex",
+            flexDirection: "column",
+          }}
+        >
+          <p
             style={{
-              padding: "12px",
-              gap: "12px",
-              display: "flex",
-              flexDirection: "column",
+              fontWeight: 500,
+              fontSize: "24px",
             }}
           >
-            <p
-              style={{
-                fontWeight: 500,
-                fontSize: "24px",
-              }}
-            >
-              {title}
-            </p>
-            <p
-              style={{
-                fontWeight: 400,
-                fontSize: "18px",
-              }}
-            >
-              {age}
-            </p>
-            <p>{area}</p>
-          </div>
+            {title}
+          </p>
+          <p
+            style={{
+              fontWeight: 400,
+              fontSize: "18px",
+            }}
+          >
+            {age}
+          </p>
+          <p>{area}</p>
         </div>
       </div>
     </div>
