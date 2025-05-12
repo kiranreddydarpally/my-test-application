@@ -1,0 +1,51 @@
+import React from "react";
+
+const Cats = ({
+  src,
+  title,
+  age,
+  area,
+}: {
+  src: string;
+  title: string;
+  age: string;
+  area: string;
+}) => {
+  return (
+    <div className="buttons">
+      <div>
+        <div className="card-footer">
+          <img src={src} style={{ width: "500px" }} alt="cat 1" />
+          <div
+            style={{
+              padding: "12px",
+              gap: "12px",
+              display: "flex",
+              flexDirection: "column",
+            }}
+          >
+            <p
+              style={{
+                fontWeight: 500,
+                fontSize: "24px",
+              }}
+            >
+              {title}
+            </p>
+            <p
+              style={{
+                fontWeight: 400,
+                fontSize: "18px",
+              }}
+            >
+              {age}
+            </p>
+            <p>{area}</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default Cats;
